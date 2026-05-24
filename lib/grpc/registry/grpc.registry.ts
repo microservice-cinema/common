@@ -1,0 +1,19 @@
+import { PROTO_PATHS } from '@microservice-cinema/contracts'
+
+export const GRPC_CLIENTS = {
+	AUTH_PACKAGE: {
+		package: 'auth.v1',
+		protoPath: PROTO_PATHS.AUTH,
+		env: 'AUTH_GRPC_URL'
+	},
+	ACCOUNT_PACKAGE: {
+		package: 'account.v1',
+		protoPath: PROTO_PATHS.AUTH,
+		env: 'AUTH_GRPC_URL'
+	},
+	USERS_PACKAGE: {
+		package: 'auth.v1',
+		protoPath: PROTO_PATHS.USERS,
+		env: 'USERS_GRPC_URL'
+	}
+} as const

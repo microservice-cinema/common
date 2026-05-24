@@ -1,6 +1,6 @@
 {
   "name": "@microservice-cinema/common",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Core shared components for microservice cinema ecosystem",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -19,5 +19,11 @@
     "@types/node": "^25.4.0",
     "prettier": "^3.8.1",
     "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@microservice-cinema/contracts": "^1.1.4",
+    "@nestjs/common": "^11.1.23",
+    "@nestjs/config": "^4.0.4",
+    "@nestjs/microservices": "^11.1.23"
   }
 }
