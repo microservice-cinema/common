@@ -8,11 +8,11 @@ export const GRPC_CLIENTS = {
 	},
 	ACCOUNT_PACKAGE: {
 		package: 'account.v1',
-		protoPath: PROTO_PATHS.AUTH,
-		env: 'AUTH_GRPC_URL'
+		protoPath: PROTO_PATHS.ACCOUNT,
+		env: 'ACCOUNT_GRPC_URL'
 	},
 	USERS_PACKAGE: {
-		package: 'auth.v1',
+		package: 'users.v1',
 		protoPath: PROTO_PATHS.USERS,
 		env: 'USERS_GRPC_URL'
 	}
